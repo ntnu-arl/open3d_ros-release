@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>open3d_ros</name>
+  <version>0.1.0</version>
+  <description>A ROS interface to Open3D</description>
+
+  <maintainer email="matnay17@gmail.com">Pranay Mathur</maintainer>
+  <maintainer email="nkhedekar@nevada.unr.edu">Nikhil Khedekar</maintainer>
+
+  <url type="repository">https://github.com/unr-arl/open3d_ros</url>
+  <url type="bugtracker">https://github.com/unr-arl/open3d_ros/issues</url>
+
+  <license>MIT</license>
+
+  <author email="matnay17@gmail.com">Pranay Mathur</author>
+  <author email="nkhedekar@nevada.unr.edu">Nikhil Khedekar</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>roslib</depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
